@@ -72,10 +72,23 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=radical" alt="Dhruv Gupta's GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=dark&hide_border=true" alt="GitHub Streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvGupta130&layout=compact&theme=radical" alt="Top Languages"/>
+  <a href="https://github.com/DhruvGupta130">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=radical" alt="Dhruv's GitHub Stats"/>
+  </a>
+  <a href="https://github.com/DhruvGupta130">
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=radical&hide_border=true" alt="GitHub Streak"/>
+  </a>
 </p>
+
+<p align="center">
+  <a href="https://github.com/DhruvGupta130">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvGupta130&layout=compact&theme=radical" alt="Top Languages"/>
+  </a>
+  <a href="https://github.com/DhruvGupta130">
+    <img width="48%" src="https://github-profile-trophy.vercel.app/?username=DhruvGupta130&theme=radical&margin-w=5&margin-h=5&column=4" alt="GitHub Trophies"/>
+  </a>
+</p>
+
 ---
 
 ## 🌐 Connect with Me
