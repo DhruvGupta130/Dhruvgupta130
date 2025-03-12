@@ -76,7 +76,7 @@
     <img width="48%" src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=radical" alt="Dhruv's GitHub Stats"/>
   </a>
   <a href="https://github.com/DhruvGupta130">
-    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=radical&border=FFFFFF" alt="GitHub Streak"/>
+    <img width="48%" src="https://github-readme-streak-stats.vercel.app/?user=DhruvGupta130&theme=radical&border=FFFFFF" alt="GitHub Streak"/>
   </a>
 </p>
 
