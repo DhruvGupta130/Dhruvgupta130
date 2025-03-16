@@ -1,5 +1,5 @@
 import {
-    FaJava, FaReact, FaAws, FaDocker, FaDatabase, FaGitAlt, FaGithub, FaJs, FaPython, FaGit,
+    FaJava, FaReact, FaAws, FaDocker, FaGithub, FaJs, FaPython, FaGit,
     FaTerminal, FaCloud, FaCogs
 } from "react-icons/fa";
 import {

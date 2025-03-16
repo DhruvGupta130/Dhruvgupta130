@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import Layout from "../components/Layout";
 import AnimatedText from "../components/AnimatedText";
 import { motion } from "framer-motion";
-import { socialLinks } from "../lib/data";
 import { useToast } from "../hooks/use-toast.js";
 import {BREVO_API_KEY} from "../lib/config.js";
 
