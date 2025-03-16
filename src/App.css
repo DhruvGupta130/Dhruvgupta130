@@ -1,0 +1,19 @@
+.theme-toggle-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.theme-toggle-button {
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary-button-bg);
+    color: var(--background-color);
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode .theme-toggle-button {
+    background-color: var(--primary-button-bg);
+    color: var(--primary-color);
+}
