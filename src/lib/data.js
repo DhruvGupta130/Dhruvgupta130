@@ -23,7 +23,7 @@ export const projects = [
         github: "https://github.com/DhruvGupta130/TaskManagementSystem",
         demo: "https://gupta-task.netlify.app/",
         category: [
-            "Microservices", "Spring Boot Admin", "React.js", "PostgreSQL", "RBAC","Tailwind CSS",
+            "Microservices", "Spring Boot Admin", "React.js", "PostgreSQL", "RBAC","Tailwind CSS", "Resilience4j",
             "Docker", "Spring Cloud", "API Gateway", "Spring Security", "Redux", "JWT Authentication"
         ]
     },
