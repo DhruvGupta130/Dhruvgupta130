@@ -53,31 +53,18 @@ const ProjectCard = ({
                     </div>
                 </div>
             </div>
-
-            <div className="flex flex-wrap gap-2 mb-3">
-                {category.slice(0, 6).map((cat, i) => (
-                    <span
-                        key={i}
-                        className="text-xs px-3 py-1 bg-dark/10 dark:bg-light/10 rounded-full text-dark/80 dark:text-light/80 font-medium text-center truncate"
-                    >
-            {cat}
-        </span>
-                ))}
-                {category.length > 6 && (
-                    <span className="text-xs px-3 py-1 bg-dark/20 dark:bg-light/20 bg-badge rounded-full text-dark/80 dark:text-light/80 font-medium text-center">
-            +{category.length - 6} more
-        </span>
-                )}
-            </div>
-
-
             <h3 className="text-xl font-bold text-dark dark:text-light mb-2 group-hover:text-primary1 dark:group-hover:text-primaryDark transition-colors">
                 {title}
             </h3>
 
-            <p className="text-dark/70 dark:text-light/70 text-sm">
-                {description}
-            </p>
+            <ul className="text-sm list-disc pl-5 space-y-2">
+                {description.map((point, index) => (
+                    <li key={index} className="leading-relaxed">
+                        {point}
+                    </li>
+                ))}
+            </ul>
+
         </motion.div>
     );
 };

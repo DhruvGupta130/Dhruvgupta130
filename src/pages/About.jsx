@@ -114,14 +114,18 @@ const About = () => {
             >
                 <h2 className="mb-8 text-dark/90 dark:text-light/90 font-bold text-2xl uppercase text-center">Education</h2>
 
-                <div className="flex justify-center max-w-3xl">
+                <div className="flex flex-wrap justify-center text-center gap-6">
                     {education.map((edu, index) => (
                         <motion.div
                             key={edu.id}
-                            className="rounded-xl p-6 bg-light dark:bg-dark border border-dark/10 dark:border-light/10 shadow-sm hover:shadow-md transition-shadow duration-300"
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
+                            className="w-full rounded-xl p-6 bg-light dark:bg-dark border border-dark/10 dark:border-light/10 shadow-sm hover:shadow-md transition-shadow duration-300"
+                            initial="hidden"
+                            whileInView="visible"
                             transition={{ duration: 0.5, delay: index * 0.1 }}
+                            variants={{
+                                hidden: { opacity: 0, y: 20 },
+                                visible: { opacity: 1, y: 0 }
+                            }}
                             viewport={{ once: true }}
                         >
                             <h3 className="font-bold text-lg text-dark dark:text-light">{edu.degree}</h3>

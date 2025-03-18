@@ -46,7 +46,7 @@ const Index = () => {
                 >
                     <Link
                         to="/projects"
-                        className="inline-block py-3 px-8 rounded-lg font-medium bg-dark text-light dark:bg-light dark:text-dark hover:bg-light hover:text-dark hover:border-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light border-2 border-solid border-transparent transition-colors duration-300"
+                        className="inline-block go-to py-3 px-8 rounded-lg font-medium border-2 border-solid border-transparent transition-colors duration-300"
                     >
                         View All Projects
                     </Link>
