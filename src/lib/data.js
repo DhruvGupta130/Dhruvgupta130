@@ -61,7 +61,7 @@ export const projects = [
         ],
         image: chatApp,
         github: "https://github.com/DhruvGupta130/ChatApp",
-        demo: "https://your-chatapp-deployment-link.com",
+        demo: "https://gupta-chat.netlify.app/",
         category: [
             "React.js", "WebSockets", "React-Toastify", "Docker",
             "STOMP", "PostgreSQL", "Real-Time Messaging", "Tailwind CSS"
