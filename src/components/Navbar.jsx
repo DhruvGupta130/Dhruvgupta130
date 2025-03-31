@@ -84,7 +84,7 @@ const Navbar = () => {
             )}
             style={{ transition: "all 0.3s ease" }}
         >
-            <div className="left-side flex items-center justify-center">
+            <div className="left-side ml-2 flex items-center justify-center">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}

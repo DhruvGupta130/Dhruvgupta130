@@ -20,7 +20,7 @@ const Hero = () => {
                     className="flex flex-col items-start self-start space-y-5"
                 >
                     {/* Greeting */}
-                    <h2 className="font-mont text-3xl text-left text-dark/75 dark:text-light/75 font-medium">
+                    <h2 className="font-mont text-2xl text-left text-dark/75 dark:text-light/75 font-medium">
                         Hi there, I’m
                     </h2>
 

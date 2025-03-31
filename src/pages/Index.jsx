@@ -11,7 +11,7 @@ const Index = () => {
     const featuredProjects = projects.slice(0, 3);
 
     return (
-        <Layout className="pt-20">
+        <Layout className="pt-25">
             {/* Hero Section */}
             <Hero />
 
