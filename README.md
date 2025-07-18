@@ -64,12 +64,14 @@
 
 ## 🚀 Featured Projects
 
+## 🚀 Featured Projects
+
 | 🛠️ Project Name | 💡 Description | 📦 Tech Stack | 🔗 Repository |
 |-----------------|----------------|----------------|----------------|
-| **TaskPulse** | Microservices-based task system with Kafka notifications, Feign clients, and JWT auth | Spring Cloud · Kafka · React · Docker · Resilience4j | ![GitHub](https://img.shields.io/badge/Repo-TaskPulse-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/DhruvGupta130/TaskManagementSystem) |
-| **Ayumed** | Hospital & OPD platform with email, roles, and analytics | Spring Boot · React · MySQL · Brevo SMTP | ![GitHub](https://img.shields.io/badge/Repo-Ayumed-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/DhruvGupta130/HospitalManagementSystem) |
-| **Food Ordering** | Real-time ordering and delivery app with cloud media & secure login | Spring Boot · React · Redux · Cloudinary | ![GitHub](https://img.shields.io/badge/Repo-OrderFood-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/DhruvGupta130/OrderFood) |
-| **Hotel Management** | Hotel booking platform with email verification and secure access | Spring Boot · React · SMTP | ![GitHub](https://img.shields.io/badge/Repo-HotelMS-181717?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/DhruvGupta130/My-Hotel) |
+| **TaskPulse** | Microservices-based task system with Kafka notifications, Feign clients, and JWT auth | Spring Cloud · Kafka · React · Docker · Resilience4j | [![GitHub](https://img.shields.io/badge/Repo-TaskPulse-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DhruvGupta130/TaskManagementSystem) |
+| **Ayumed** | Hospital & OPD platform with email, roles, and analytics | Spring Boot · React · MySQL · Brevo SMTP | [![GitHub](https://img.shields.io/badge/Repo-Ayumed-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DhruvGupta130/HospitalManagementSystem) |
+| **Food Ordering** | Real-time ordering and delivery app with cloud media & secure login | Spring Boot · React · Redux · Cloudinary | [![GitHub](https://img.shields.io/badge/Repo-OrderFood-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DhruvGupta130/OrderFood) |
+| **Hotel Management** | Hotel booking platform with email verification and secure access | Spring Boot · React · SMTP | [![GitHub](https://img.shields.io/badge/Repo-HotelMS-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DhruvGupta130/My-Hotel) |
 
 ---
 
