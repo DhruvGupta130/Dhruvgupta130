@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=5&color=00F7FF&center=true&vCenter=false&multiline=true&width=800&height=160&lines=System.out.println(%22Still+building...+%F0%9F%9A%80%22);while(alive)%7B;++++build();++++dream();%7D;git+commit+-m+%22One+repo+at+a+time%22;%7D;git+commit+-m+%22One+repo+at+a+time;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=5&color=00F7FF&center=true&vCenter=false&multiline=true&width=800&height=155&lines=System.out.println(%22Still+building...+%F0%9F%9A%80%22);while(alive)%7B;++++build();++++dream();%7D;git+commit+-m+%22One+repo+at+a+time%22;git+commit+-m+%22One+repo+at+a+time;" alt="Typing SVG" />
 </div>
 
 ---
