@@ -8,6 +8,10 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="Coding GIF" />
 </p>
 
+<div align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=5&color=00F7FF&center=true&vCenter=false&multiline=true&width=800&height=180&lines=System.out.println(%22Still+building...+%F0%9F%9A%80%22);while(alive)%7B;++++build();++++dream();%7D;git+commit+-m+%22One+repo+at+a+time%22;%7D;git+commit+-m+%22One+repo+at+a+time%22;" alt="Typing SVG" />
+</div>
+
 ---
 
 ## 🧑‍💻 About Me
