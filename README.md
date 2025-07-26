@@ -89,9 +89,13 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=react" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvGupta130&layout=compact&theme=radical" width="60%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=react" width="48%" style="margin: 5px;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=radical" width="48%" style="margin: 5px;" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvGupta130&layout=compact&theme=radical" width="48%" style="margin: 5px;" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DhruvGupta130&theme=react-dark" width="90%" style="margin-top: 10px;" />
 </p>
 
 ---
