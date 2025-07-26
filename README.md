@@ -96,6 +96,14 @@
 
 ---
 
+## 📈 LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/DhruvGupta130?theme=dark&font=JetBrains%20Mono&ext=contest" width="70%" />
+</p>
+
+---
+
 ## 🌐 Let's Connect
 
 <p align="center">
