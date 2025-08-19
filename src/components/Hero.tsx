@@ -58,7 +58,7 @@ export const Hero = () => {
                         <Button
                             variant="outline"
                             size="lg"
-                            onClick={() => window.open("https://iiitranchiacin-my.sharepoint.com/:b:/g/personal/dhruv_2022ug2022_iiitranchi_ac_in/EZfNJNm7HZRFh23ZpPYIzb0Bt-55Wz0WC3b3UhmCRPm0XA?e=oSsz3J", "_blank")}
+                            onClick={() => window.open("https://iiitranchiacin-my.sharepoint.com/:b:/g/personal/dhruv_2022ug2022_iiitranchi_ac_in/EdjA52jnSlxOutA8LAkUyZcBEbdvB9EKlncgLu8p_7LkRg?e=WM7w2w", "_blank")}
                             className="glass border-primary/50 hover:bg-primary/10 hover:border-primary hover:shadow-glow text-lg px-8 py-4 font-semibold group"
                         >
                             <span>View Resume</span>
