@@ -1,18 +1,19 @@
-import { Heart, Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { RESUME_URL } from "@/lib/url";
+import { Heart, Github, Linkedin, Mail, ExternalLink, FileText } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
     {
-      icon: Github,
-      url: "https://github.com/DhruvGupta130",
-      label: "GitHub"
-    },
-    {
       icon: Linkedin,
       url: "https://www.linkedin.com/in/dhruvgupta130/",
       label: "LinkedIn"
+    },
+    {
+      icon: Github,
+      url: "https://github.com/DhruvGupta130",
+      label: "GitHub"
     },
     {
       icon: ExternalLink,
@@ -21,8 +22,13 @@ export const Footer = () => {
     },
     {
       icon: Mail,
-      url: "mailto:dhruv.gupta@example.com",
+      url: "mailto:dhruvgupta130@gmail.com",
       label: "Email"
+    },
+    {
+      icon: FileText,
+      url: RESUME_URL,
+      label: "Resume"
     }
   ];
 
@@ -43,22 +49,21 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="relative py-16 mt-20">
-      {/* Background Pattern */}
+    <footer className="relative py-16 mt-20 bg-gray-950 text-gray-100">
+      {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-surface to-background opacity-50" />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand Section */}
           <div className="md:col-span-2">
             <h3 className="text-3xl font-bold gradient-text mb-4">Dhruv Gupta</h3>
             <p className="text-secondary text-lg mb-6 max-w-md">
-              Full-Stack Java Developer passionate about creating scalable solutions 
-              and innovative web applications. Always ready for the next challenge.
+              Backend-focused Full-Stack Developer passionate about creating scalable microservices and innovative web applications.
             </p>
-            
+
             {/* Social Links */}
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-4">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
@@ -98,23 +103,23 @@ export const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold text-premium mb-4">Get In Touch</h4>
-            <div className="space-y-3">
-              <div className="text-secondary">
+            <div className="space-y-3 text-secondary">
+              <div>
                 <p className="text-sm">Email</p>
-                <a 
-                  href="mailto:dhruv.gupta@example.com"
+                <a
+                  href="mailto:dhruvgupta130@gmail.com"
                   className="hover:text-primary transition-colors"
                 >
-                  dhruv.gupta@example.com
+                  dhruvgupta130@gmail.com
                 </a>
               </div>
-              <div className="text-secondary">
+              <div>
                 <p className="text-sm">Location</p>
-                <p>Ranchi, Jharkhand, India</p>
+                <p>Jhansi, Uttar Pradesh, India</p>
               </div>
-              <div className="text-secondary">
+              <div>
                 <p className="text-sm">Education</p>
-                <p className="text-sm">IIIT Ranchi</p>
+                <p className="text-sm">B.Tech, IIIT Ranchi</p>
               </div>
             </div>
           </div>
@@ -123,14 +128,14 @@ export const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border/50 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-2 text-secondary">
+            <div className="flex items-center space-x-2 text-secondary text-sm">
               <span>© {currentYear} Dhruv Gupta. Made with</span>
               <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-              <span>and lots of coffee.</span>
+              <span>and lots of coffee ☕</span>
             </div>
-            
             <div className="text-secondary text-sm">
-              <span>Built with React.js • Spring Boot • Tailwind CSS</span>
+              Built with <span className="text-primary">React.js</span>,{" "}
+              <span className="text-accent">Spring Boot</span>, and Tailwind CSS
             </div>
           </div>
         </div>
@@ -138,16 +143,16 @@ export const Footer = () => {
         {/* Scroll to Top Button */}
         <button
           onClick={() => scrollToSection("#home")}
-          className="absolute -top-6 right-6 p-3 bg-gradient-primary rounded-full shadow-glow hover:shadow-premium hover:scale-110 transition-all duration-300 group"
+          className="absolute -top-6 right-6 p-3 bg-gradient-primary rounded-full shadow-glow hover:scale-110 transition-all duration-300 group"
           aria-label="Scroll to top"
         >
-          <svg 
-            className="h-5 w-5 text-background group-hover:scale-110 transition-transform" 
-            fill="none" 
-            stroke="currentColor" 
+          <svg
+            className="h-5 w-5 text-background group-hover:scale-125 transition-transform"
+            fill="none"
+            stroke="currentColor"
             viewBox="0 0 24 24"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7 7 7m-7-7v18" />
           </svg>
         </button>
       </div>
