@@ -12,7 +12,7 @@ const highlights = [
   {
     icon: GraduationCap,
     title: "Education",
-    description: "IIIT Ranchi",
+    description: "Indian Institute of Information Technology, Ranchi",
     detail: "B.Tech in Electronics & Communication Engineering",
   },
   {
@@ -43,7 +43,7 @@ const highlights = [
     icon: Trophy,
     title: "Achievements",
     description: "Hackathons & Competitive Coding",
-    detail: "SIH Finalist • 800+ DSA Problems Solved",
+    detail: "SIH College Finalist • 800+ DSA Problems Solved",
   },
 ];
 
@@ -88,7 +88,7 @@ export const About = () => {
                     {" "}
                     B.Tech in Electronics & Communication Engineering{" "}
                   </span>
-                  from IIIT Ranchi. While my academic branch is ECE, I’ve carved a
+                  from Indian Institute of Information Technology, Ranchi. While my academic branch is ECE, I’ve carved a
                   parallel path in software engineering — specializing in building
                   distributed systems, microservices, and real-time applications.
                 </p>

@@ -1,1 +1,1 @@
-export const RESUME_URL = "https://iiitranchiacin-my.sharepoint.com/:b:/g/personal/dhruv_2022ug2022_iiitranchi_ac_in/ETH23HFhV01GuwAduE707uwBMwYz1Rd-XQgBM2-SxY0iaw?e=wl96GY";
+export const RESUME_URL = "https://drive.google.com/file/d/1KYAoMaBvEfJD6-_b3FZ6h_7LIfEcd-MV/view?usp=sharing";

@@ -6,42 +6,33 @@ import emmLogo from "@/assets/earn-my-money-logo.jpg";
 import tdLogo from "@/assets/trulydesignfirm-logo.jpg";
 
 const experiences = [
-  {
-    company: "Xurge",
-    role: "Backend Developer",
-    duration: "Aug 2025 – Present",
-    logo: xurgeLogo,
-    description: [
-      "Developed 12+ REST APIs with Spring Boot, enabling real-time chat and onboarding for 1K+ users.",
-      "Optimized PostgreSQL schema/queries, reducing execution time by 25% and improving consistency.",
-      "Implemented structured logging & error handling, cutting debug time by 40%."
-    ],
-    tech: ["Spring Boot", "PostgreSQL", "WebSockets", "Redis"],
-  },
-  {
-    company: "Earn My Money",
-    role: "Backend Developer",
-    duration: "Aug 2025 – Present",
-    logo: emmLogo,
-    description: [
-      "Built 20+ REST APIs with Spring Boot & WebFlux, improving concurrency and response time by 30%.",
-      "Tuned PostgreSQL/MySQL queries with caching, reducing database load by 35%.",
-      "Maintained 85%+ test coverage with JUnit/Mockito in Agile sprints."
-    ],
-    tech: ["Spring Boot", "Spring WebFlux", "PostgreSQL", "MySQL", "JUnit"],
-  },
-  {
-    company: "Truly Design Firm",
-    role: "Full Stack Developer",
-    duration: "Mar 2025 – Jun 2025",
-    logo: tdLogo,
-    description: [
-      "Built scalable modules with Spring Boot, React.js, and PostgreSQL.",
-      "Reduced API latency by 35% via Redis caching.",
-      "Implemented JWT/OAuth2 RBAC, WebSocket STOMP, and CI/CD via Docker & GitHub Actions, cutting release time by 50%."
-    ],
-    tech: ["Spring Boot", "React", "PostgreSQL", "Redis", "Docker", "GitHub Actions"],
-  },
+    {
+        company: "Xurge (Earn My Money Product)",
+        role: "Backend Developer — Part-Time",
+        duration: "Aug 2025 – Present",
+        logo: xurgeLogo,
+        description: [
+            "Delivering backend services for Earn My Money using Java, Spring Boot, PostgreSQL, and Redis.",
+            "Built 20+ secure and production-grade REST APIs including onboarding and real-time chat features.",
+            "Improved database throughput by ~30% through optimized queries, indexing, and caching strategies.",
+            "Integrated Brevo and PostHog for analytics-driven user retention and behavior insights.",
+            "Strengthened security with JWT (access + refresh tokens), RBAC, and reliable session handling."
+        ],
+        tech: ["Spring Boot", "WebFlux", "PostgreSQL", "Redis", "Kafka", "JWT"],
+    },
+    {
+        company: "Truly Design Firm",
+        role: "Full Stack Developer — Internship",
+        duration: "Mar 2025 – Jun 2025",
+        logo: tdLogo,
+        description: [
+            "Optimized Spring Boot APIs and PostgreSQL queries, reducing latency by 35%.",
+            "Built full-stack modules using React + Spring Boot, improving dynamic UI responsiveness by 20%.",
+            "Designed and deployed real-time features using WebSockets (STOMP) and CI/CD pipelines.",
+            "Independently launched features like GetE-Menu, Laundry Adda & TFSC from backend to UI delivery."
+        ],
+        tech: ["Spring Boot", "React", "PostgreSQL", "Redis", "Docker", "GitHub Actions"],
+    }
 ];
 
 export const Experience = () => {
@@ -64,7 +55,7 @@ export const Experience = () => {
       </div>
 
       {/* Timeline */}
-      <div className="relative border-l border-gray-800 pl-6 space-y-20 space-x-20">
+      <div className="relative border-l border-gray-800 pl-6 space-y-20">
         {experiences.map((exp, idx) => (
           <div key={idx} className="relative group">
             {/* Timeline Dot */}
