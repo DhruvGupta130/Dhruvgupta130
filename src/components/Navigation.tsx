@@ -59,7 +59,7 @@ export const Navigation = () => {
                                 <img
                                     src="/Logo.png"
                                     alt="DG Logo"
-                                    className="h-12 rounded-full object-cover shadow-md"
+                                    className="h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full p-1"
                                 />
                                 <span
                                     className="text-3xl font-extrabold bg-gradient-to-r from-purple-500 to-pink-500 text-transparent bg-clip-text hover:scale-105 transition-transform cursor-pointer select-none"
