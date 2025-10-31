@@ -1,1 +1,2 @@
 export const BREVO_API_KEY = import.meta.env.VITE_BREVO_API_KEY;
+export const RESUME_URL = "https://drive.google.com/file/d/1KYAoMaBvEfJD6-_b3FZ6h_7LIfEcd-MV/view?usp=sharing";

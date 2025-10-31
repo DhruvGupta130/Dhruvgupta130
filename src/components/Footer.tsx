@@ -1,4 +1,4 @@
-import { RESUME_URL } from "@/lib/url";
+import { RESUME_URL } from "@/config.ts";
 import { Heart, Github, Linkedin, Mail, ExternalLink, FileText } from "lucide-react";
 
 export const Footer = () => {

@@ -1,7 +1,7 @@
 import {ArrowDown, Github, Linkedin, Mail, ExternalLink} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg-improved.jpg";
-import { RESUME_URL } from "@/lib/url";
+import { RESUME_URL } from "@/config";
 
 export const Hero = () => {
     return (
