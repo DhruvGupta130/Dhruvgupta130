@@ -6,6 +6,15 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="300" alt="Coding GIF" />
 </p>
 
+<p align="center">
+  <img 
+    src="https://res.cloudinary.com/dziyf57vh/image/upload/v1753544493/code_typing_v15tgi.gif"
+    alt="Typing SVG"
+    height="150"
+    width="450"
+    />
+</p>
+
 <div align="center">
   <img src="https://img.shields.io/badge/B.Tech-IIIT%20Ranchi-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Exp-SDE%20Intern%20@%20ACKO-FF69B4?style=for-the-badge" />
@@ -109,7 +118,7 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DhruvGupta130&theme=tokyonight" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=DhruvGupta130&show_icons=true&theme=tokyonight" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DhruvGupta130&theme=tokyonight" width="48%" />
 </p>
 
 <p align="center">
@@ -128,6 +137,6 @@
 ---
 
 ## ⚡ Fun Fact
-> 🚀 My backend’s always up.  
-> I, however, went down at 2AM after deploying without a rollback plan 😪
+> My backend is always scalable.  
+> My sleep schedule is not 😴
 ---
