@@ -1,5 +1,5 @@
 import { RESUME_URL } from "@/config.ts";
-import { Heart, Github, Linkedin, Mail, ExternalLink, FileText } from "lucide-react";
+import { Heart, Github, Linkedin, Mail, ExternalLink, FileText, ArrowUp, Terminal, Shield, Cpu } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,33 +8,33 @@ export const Footer = () => {
     {
       icon: Linkedin,
       url: "https://www.linkedin.com/in/dhruvgupta130/",
-      label: "LinkedIn"
+      label: "LinkedIn",
+      color: "hover:text-[#0077B5]"
     },
     {
       icon: Github,
       url: "https://github.com/DhruvGupta130",
-      label: "GitHub"
-    },
-    {
-      icon: ExternalLink,
-      url: "https://dhruv-gupta-portfolio.netlify.app/",
-      label: "Portfolio"
+      label: "GitHub",
+      color: "hover:text-[#333]"
     },
     {
       icon: Mail,
       url: "mailto:dhruvgupta130@gmail.com",
-      label: "Email"
+      label: "Email",
+      color: "hover:text-primary"
     },
     {
       icon: FileText,
       url: RESUME_URL,
-      label: "Resume"
+      label: "Resume",
+      color: "hover:text-accent"
     }
   ];
 
   const quickLinks = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" }
   ];
@@ -49,40 +49,48 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="relative py-16 mt-20 bg-gray-950 text-gray-100">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-t from-surface to-background opacity-50" />
+    <footer className="relative bg-[#050505] pt-24 pb-12 overflow-hidden">
+      {/* Decorative Background Elements */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-[120px] -translate-y-1/2"></div>
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-[120px] translate-y-1/2"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-8 mb-12">
-          {/* Brand Section */}
-          <div className="md:col-span-2">
-            <h3 className="text-3xl font-bold gradient-text mb-4">Dhruv Gupta</h3>
-            <p className="text-secondary text-lg mb-6 max-w-md">
-              Backend-focused Full-Stack Developer passionate about creating scalable microservices and innovative web applications.
-            </p>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
+          {/* Brand & Mission Section */}
+          <div className="lg:col-span-5 space-y-8">
+            <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                    <div className="h-1 w-12 bg-primary rounded-full"></div>
+                    <span className="text-primary font-black tracking-widest text-xs uppercase">Engineering Philosophy</span>
+                </div>
+                <h3 className="text-4xl font-black tracking-tighter text-white">
+                    Architecting the <span className="text-primary">Next Generation</span> of Backend Systems.
+                </h3>
+                <p className="text-secondary text-lg leading-relaxed max-w-md">
+                    Focused on high-scale distributed systems, microservices resiliency, and production-grade engineering at ACKO.
+                </p>
+            </div>
 
-            {/* Social Links */}
-            <div className="flex flex-wrap gap-4">
+            <div className="flex items-center gap-4">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 glass hover:bg-primary/20 hover:shadow-glow transition-all duration-300 hover-lift rounded-full group"
+                  className={`p-4 glass-premium rounded-2xl transition-all duration-300 hover:-translate-y-2 group ${social.color}`}
                   aria-label={social.label}
                 >
-                  <social.icon className="h-5 w-5 text-text-secondary group-hover:text-primary transition-colors" />
+                  <social.icon className="h-6 w-6 transition-transform group-hover:scale-110" />
                 </a>
               ))}
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold text-premium mb-4">Quick Links</h4>
-            <ul className="space-y-2">
+          {/* Quick Navigation */}
+          <div className="lg:col-span-2 space-y-6">
+            <h4 className="text-white font-black tracking-tight text-xl">Navigation</h4>
+            <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
                   <a
@@ -91,8 +99,9 @@ export const Footer = () => {
                       e.preventDefault();
                       scrollToSection(link.href);
                     }}
-                    className="text-secondary hover:text-primary transition-colors duration-300 cursor-pointer hover:translate-x-2 transform inline-block"
+                    className="text-secondary hover:text-primary font-bold transition-all duration-300 flex items-center gap-2 group"
                   >
+                    <span className="w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-3"></span>
                     {link.name}
                   </a>
                 </li>
@@ -100,61 +109,71 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-semibold text-premium mb-4">Get In Touch</h4>
-            <div className="space-y-3 text-secondary">
-              <div>
-                <p className="text-sm">Email</p>
-                <a
-                  href="mailto:dhruvgupta130@gmail.com"
-                  className="hover:text-primary transition-colors"
+          {/* Technical Specs / Status */}
+          <div className="lg:col-span-5 space-y-8">
+            <div className="glass-premium p-8 rounded-3xl border border-white/5 space-y-6">
+                <h4 className="text-white font-black tracking-tight text-xl flex items-center gap-2">
+                    <Terminal className="h-5 w-5 text-primary" />
+                    System Status
+                </h4>
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="space-y-1">
+                        <p className="text-[10px] uppercase tracking-widest text-secondary font-bold">Current Role</p>
+                        <p className="text-white font-bold text-sm flex items-center gap-2">
+                            <Shield className="h-3 w-3 text-green-500" />
+                            SDE Intern @ ACKO
+                        </p>
+                    </div>
+                    <div className="space-y-1">
+                        <p className="text-[10px] uppercase tracking-widest text-secondary font-bold">Tech Stack</p>
+                        <p className="text-white font-bold text-sm flex items-center gap-2">
+                            <Cpu className="h-3 w-3 text-primary" />
+                            Java / Spring / Kafka
+                        </p>
+                    </div>
+                </div>
+                <div className="pt-4 border-t border-white/5">
+                    <a 
+                        href="mailto:dhruvgupta130@gmail.com"
+                        className="text-primary hover:text-white font-black tracking-tight transition-colors flex items-center gap-2"
+                    >
+                        dhruvgupta130@gmail.com
+                        <ExternalLink className="h-4 w-4" />
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="pt-12 border-t border-white/5">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div className="flex flex-col items-center md:items-start gap-2">
+                <div className="flex items-center gap-2 text-white font-black tracking-tight text-lg">
+                    <span>© {currentYear}</span>
+                    <span className="text-primary">DHRUV GUPTA</span>
+                </div>
+                <div className="flex items-center gap-2 text-secondary text-xs font-bold tracking-widest uppercase">
+                    Made with <Heart className="h-3 w-3 text-red-500 fill-red-500 animate-pulse" /> for the ecosystem
+                </div>
+            </div>
+
+            <div className="flex items-center gap-6">
+                <div className="text-right hidden sm:block">
+                    <p className="text-[10px] uppercase tracking-[0.2em] text-secondary font-black">Architecture</p>
+                    <p className="text-white font-bold text-sm italic">Scalability by Design</p>
+                </div>
+                <button
+                    onClick={() => scrollToSection("#home")}
+                    className="p-4 glass-premium rounded-2xl hover:bg-primary/20 transition-all duration-500 group relative"
+                    aria-label="Scroll to top"
                 >
-                  dhruvgupta130@gmail.com
-                </a>
-              </div>
-              <div>
-                <p className="text-sm">Location</p>
-                <p>Jhansi, Uttar Pradesh, India</p>
-              </div>
-              <div>
-                <p className="text-sm">Education</p>
-                <p className="text-sm">B.Tech, IIIT Ranchi</p>
-              </div>
+                    <div className="absolute -inset-2 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <ArrowUp className="relative h-6 w-6 text-white transition-transform group-hover:-translate-y-1" />
+                </button>
             </div>
           </div>
         </div>
-
-        {/* Bottom Section */}
-        <div className="border-t border-border/50 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-2 text-secondary text-sm">
-              <span>© {currentYear} Dhruv Gupta. Made with</span>
-              <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-              <span>and lots of coffee ☕</span>
-            </div>
-            <div className="text-secondary text-sm">
-              Built with <span className="text-primary">React.js</span>,{" "}
-              <span className="text-accent">Spring Boot</span>, and Tailwind CSS
-            </div>
-          </div>
-        </div>
-
-        {/* Scroll to Top Button */}
-        <button
-          onClick={() => scrollToSection("#home")}
-          className="absolute -top-6 right-6 p-3 bg-gradient-primary rounded-full shadow-glow hover:scale-110 transition-all duration-300 group"
-          aria-label="Scroll to top"
-        >
-          <svg
-            className="h-5 w-5 text-background group-hover:scale-125 transition-transform"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7 7 7m-7-7v18" />
-          </svg>
-        </button>
       </div>
     </footer>
   );
