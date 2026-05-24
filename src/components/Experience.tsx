@@ -13,13 +13,14 @@ const experiences = [
         duration: "Jan 2026 – Present",
         logo: ackoLogo,
         description: [
-            "Architecting the end-to-end backend for a B2B Partner Portal, managing complex insurance workflows for enterprise clients.",
-            "Engineered a high-performance Access Management System (AMS) using Zanzibar-inspired RBAC to handle large-scale permissions.",
-            "Developed 20+ production-grade microservices with Java/Spring Boot, ensuring 99.9% availability through resilient API design.",
-            "Optimized critical database paths and service layers, slashing latency by 30% and significantly boosting throughput.",
-            "Leveraging Kafka for event-driven synchronization and Redis for low-latency distributed caching."
+            "Operating as a full stack developer, owning the Financials Module E2E for the Enterprise B2B Partner Portal, managing critical policy lifecycle and ledger systems with full production accountability.",
+            "Architected and lead a major Ledger Deposit revamp, consolidating services and improving system reliability via direct Kafka consumption.",
+            "Optimized backend performance by removing 2 intermediate microservices, significantly reducing architectural complexity and end-to-end latency.",
+            "Engineered a high-performance Access Management System (AMS) using Zanzibar-inspired RBAC for enterprise-scale permissions.",
+            "Driving production ownership and cross-team collaboration, operating at an SDE-1 level with a focus on high-impact architectural decisions.",
+            "Leveraging Spring Boot, Kafka, and Redis to build scalable, event-driven distributed systems that support high-volume insurance transactions."
         ],
-        tech: ["Java", "Spring Boot", "Microservices", "Kafka", "PostgreSQL", "Redis", "System Design", "Zanzibar RBAC"],
+        tech: ["Java", "Spring Boot", "Kafka", "Microservices", "PostgreSQL", "Redis", "System Design", "Distributed Systems"],
     },
     {
         company: "Xurge",

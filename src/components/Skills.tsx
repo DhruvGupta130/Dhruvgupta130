@@ -7,15 +7,18 @@ import springIcon from "@/assets/spring-icon.jpg";
 
 const skillCategories = [
     {
-        title: "Backend Engineering & Architecture",
+        title: "Distributed Systems & Architecture",
         icon: javaIcon,
         color: "primary",
-        description: "Building scalable backend systems with focus on clean architecture, performance, and real-world production use cases.",
+        description: "Designing and implementing scalable, high-concurrency systems with a focus on reliability, consistency, and performance.",
         skills: [
-            "Java", "Spring Boot", "REST APIs", "Microservices",
-            "System Design (LLD + Basics of HLD)",
-            "Kafka (Event-Driven Systems)", "Redis (Caching)",
-            "RBAC (Zanzibar-inspired)", "Concurrency Basics"
+            "Java / Spring Boot / Spring Cloud",
+            "Microservices & Event-Driven Architecture",
+            "Kafka (High-Throughput Streaming)",
+            "System Design (HLD + LLD)",
+            "Distributed Caching (Redis)",
+            "Concurrency & Multi-threading",
+            "Zanzibar-inspired RBAC"
         ]
     },
     {
@@ -31,13 +34,16 @@ const skillCategories = [
         ]
     },
     {
-        title: "Infrastructure & DevOps (Working Knowledge)",
+        title: "Infrastructure & Observability",
         icon: springIcon,
         color: "primary",
-        description: "Experience with containerization and basic cloud deployment workflows.",
+        description: "Managing cloud-native infrastructure with a focus on deployment automation and system visibility.",
         skills: [
-            "Docker", "GitHub Actions (CI/CD Basics)",
-            "Linux", "AWS (EC2, S3 - Basics)", "Git"
+            "Docker & Kubernetes (K8s)",
+            "AWS (EC2, S3, RDS, Lambda, IAM)",
+            "CI/CD (GitHub Actions)",
+            "Monitoring & Logging (ELK, Prometheus - Basics)",
+            "Linux (Bash Scripting)", "Git"
         ]
     },
     {
@@ -52,13 +58,13 @@ const skillCategories = [
         ]
     },
     {
-        title: "Frontend (Supporting Skills)",
+        title: "Frontend Engineering",
         icon: reactIcon,
         color: "primary",
-        description: "Comfortable building frontend interfaces when needed.",
+        description: "Building modern, responsive user interfaces with the latest web technologies.",
         skills: [
-            "React.js", "TypeScript", "Redux Toolkit",
-            "Tailwind CSS", "WebSockets (Usage)"
+            "React.js", "Next.js", "TypeScript",
+            "Tailwind CSS", "Redux Toolkit", "WebSockets"
         ]
     },
     {

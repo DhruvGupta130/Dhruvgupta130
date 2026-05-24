@@ -31,9 +31,9 @@ export const Hero = () => {
                 {/* Status Badge */}
                 <div
                     className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 mb-6">
-                    <span className="h-2 w-2 rounded-full bg-primary animate-pulse"></span>
+                    <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
                     <span className="text-xs font-semibold tracking-wide text-primary">
-                        SDE Intern @ ACKO
+                        SDE @ ACKO | Available for Full-Time SDE-1 Roles from July 2026
                     </span>
                 </div>
 
@@ -47,18 +47,19 @@ export const Hero = () => {
                 <p className="text-xl md:text-3xl font-semibold text-secondary mb-6">
                     Software Development Engineer{" "}
                     <span className="text-subtle mx-2">•</span>
-                    Java • Spring Boot • Distributed Systems
+                    Backend & Distributed Systems
                 </p>
 
                 {/* Description */}
                 <div className="max-w-2xl space-y-3 mb-12">
                     <p className="text-lg md:text-xl text-subtle leading-relaxed">
-                        Backend-focused developer building production systems at{" "}
+                        Building high-concurrency, production-grade systems at{" "}
                         <span className="text-primary font-medium">ACKO</span>.
+                        Specializing in event-driven architectures, performance engineering, and scalable backend ecosystems.
                     </p>
 
                     <p className="text-lg md:text-xl text-subtle leading-relaxed">
-                        Event-driven microservices • RBAC systems • Database optimization
+                        Kafka • Redis • PostgreSQL • AWS • Next.js
                     </p>
                 </div>
 
@@ -79,7 +80,7 @@ export const Hero = () => {
                         onClick={() => window.open(RESUME_URL, "_blank")}
                         className="border-primary/50 hover:bg-primary/10 hover:border-primary text-lg px-8 py-4 font-semibold group"
                     >
-                        <span>View Resume</span>
+                        <span>Download Resume</span>
                         <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform"/>
                     </Button>
                 </div>

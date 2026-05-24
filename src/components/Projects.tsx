@@ -18,11 +18,11 @@ const projects = [
             "Optimized real-time task synchronization via STOMP/WebSockets, achieving sub-100ms latency for 1k+ concurrent users.",
             "Architected a secure RBAC ecosystem with OAuth2 and Redis-backed session management for enterprise-grade security.",
             "Implemented advanced fault tolerance using Resilience4j (Circuit Breaker, Rate Limiter) and distributed tracing with Zipkin.",
-            "Containerized entire microservices stack with Docker Compose for consistent, scalable deployment."
+            "Automated deployment workflows with CI/CD pipelines (GitHub Actions) and containerized the stack with Docker."
         ],
         image: workStreamImg,
         tech: ["Java", "Spring Boot", "Spring Cloud", "Kafka", "PostgreSQL", "Redis", "Docker", "Eureka", "WebSocket"],
-        github: "https://github.com/dhruv-xyz/WorkStream",
+        github: "https://github.com/Dhruvgupta130/WorkStream",
         category: "Microservices",
         year: "2025",
         metrics: "Event-Driven"
@@ -30,11 +30,11 @@ const projects = [
     {
         title: "AyuMed – Hospital Management System",
         description: [
-            "Architected a comprehensive hospital management system emphasizing 99.9% uptime for critical medical workflows.",
+            "Architected a comprehensive hospital management system for 5000+ users, emphasizing 99.9% uptime for critical medical workflows.",
             "Optimized complex PostgreSQL schemas and indexing strategies, resulting in a 40% reduction in query execution time.",
             "Engineered a multi-tenant RBAC system with JWT for granular access control across Admins, Doctors, and Patients.",
-            "Automated critical healthcare workflows including OTP-based authentication and intelligent appointment scheduling.",
-            "Integrated third-party communication layers (Brevo SMTP) for real-time patient alerts and reporting."
+            "Implemented healthcare-specific features: OTP-based Auth, Geo-Search, Inventory Tracking, and Bulk Import/Export.",
+            "Integrated third-party communication layers (Brevo SMTP) for real-time patient alerts and automated scheduling."
         ],
         image: ayumed,
         tech: ["Java", "Spring Boot", "Spring Security", "MySQL", "JWT", "JPA", "Apache POI", "SMTP (Brevo)", "Google Maps API"],

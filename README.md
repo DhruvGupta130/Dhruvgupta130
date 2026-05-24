@@ -1,6 +1,6 @@
 <h1 align="center" style="margin: 0;">👋 Hi, I'm Dhruv Gupta</h1>
-<h3 align="center" style="margin: 0;">SDE Intern @ ACKO | Java • Spring Boot • React.js • Next.js</h3>
-<h4 align="center" style="margin: 0;"><i>Architecting Scalable Backend Systems & High-Performance Full-Stack Applications</i></h4>
+<h3 align="center" style="margin: 0;">Software Development Engineer @ ACKO | Java • Spring Boot • Distributed Systems</h3>
+<h4 align="center" style="margin: 0;"><i>Building High-Scale Production Systems & Event-Driven Architectures</i></h4>
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="300" alt="Coding GIF" />
@@ -17,7 +17,8 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/B.Tech-IIIT%20Ranchi-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Exp-SDE%20Intern%20@%20ACKO-FF69B4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Exp-SDE%20@%20ACKO-FF69B4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Availability-July%202026-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LeetCode-1750+ (Top 10%25)-FFA116?style=for-the-badge&logo=leetcode" />
 </div>
 
@@ -25,24 +26,25 @@
 
 ## 👨‍💼 Professional Summary
 
-> **SDE Intern at ACKO** specializing in **Backend-First Engineering**.  
-> While I thrive in building **resilient, distributed microservices** using **Java & Spring Boot**, I am a full-stack capable engineer who leverages **React.js & Next.js** to build high-performance UIs.  
-> Currently exploring **DevOps Fundamentals** (Docker, GitHub Actions, CI/CD) while owning the end-to-end development of a **B2B Partner Portal** at scale.  
-> Passionate about **System Design**, **Event-Driven Architecture (Kafka)**, and **Scalable Infrastructure**.
+> **Software Development Engineer** specializing in **High-Scale Distributed Systems**.  
+> I build **resilient, event-driven microservices** using **Java, Spring Boot & Kafka**, with a deep focus on **Performance Engineering** and **System Reliability**.  
+> Currently delivering SDE-1 impact at **ACKO** (ending July 2026) and **actively seeking full-time SDE-1 opportunities**.
+> Expertise in **System Design (HLD/LLD)**, **Cloud-Native Infrastructure (AWS/K8s)**, and **Full-Stack Orchestration (Next.js/React)**.
 
 ---
 
 ## 💼 Engineering Journey
 
-### 🚀 SDE Intern | ACKO
-*Nov 2025 – Present*
-- **B2B Partner Portal:** Architecting end-to-end backend systems for high-scale insurance workflows, serving enterprise clients.
-- **Access Management System (AMS):** Engineering a **Zanzibar-inspired RBAC** ecosystem to manage complex, large-scale permissions.
-- **Microservices Architecture:** Developing and maintaining **20+ production-grade microservices** with Java & Spring Boot, ensuring 99.9% availability.
-- **System Optimization:** Slashing database latency by **30%** through strategic indexing, query optimization, and Redis-based distributed caching.
+### 🚀 Software Development Engineer | ACKO
+*Jan 2026 – July 2026*
+- **Full-Time Execution:** Operating as a Full-Time SDE-1 with end-to-end ownership of the Financials module in the Enterprise B2B Partner Portal.
+- **Ledger Deposit Revamp:** Architected and lead a major revamp of the ledger deposit system, consolidating services and implementing **Direct Kafka Consumption** for improved reliability.
+- **Service Consolidation:** Optimized architecture by removing **2 intermediate microservices**, significantly reducing complexity and end-to-end latency.
+- **Access Management System (AMS):** Engineering a **Zanzibar-inspired RBAC** ecosystem to manage complex, large-scale permissions for enterprise clients.
+- **Production Ownership:** Operating at an SDE-1 level with a focus on high-impact architectural decisions and ownership visibility.
 
 ### 🛠️ Backend Developer Intern | Xurge
-*Aug 2025 – Oct 2025*
+*Aug 2025 – Jan 2026*
 - **Reactive Systems:** Built a high-concurrency API layer using **Spring WebFlux**, handling real-time chat and onboarding for 'Earn My Money'.
 - **Performance Engineering:** Drove a **30% increase** in DB throughput via query optimization and implemented robust JWT-based session management.
 

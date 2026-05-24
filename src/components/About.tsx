@@ -2,10 +2,10 @@ import {GraduationCap, MapPin, Server, Trophy, Globe, Infinity} from "lucide-rea
 import {Card} from "@/components/ui/card";
 
 const stats = [
-    {number: "20+", label: "Production APIs Built"},
+    {number: "25+", label: "Production APIs Built"},
     {number: "1750+", label: "LeetCode Rating"},
     {number: "800+", label: "DSA Problems Solved"},
-    {number: "30%", label: "System Optimization"},
+    {number: "40%", label: "System Optimization"},
 ];
 
 const highlights = [
@@ -36,8 +36,8 @@ const highlights = [
     {
         icon: Infinity,
         title: "DevOps & Cloud",
-        description: "Infrastructure Fundamentals",
-        detail: "Learning Docker • GitHub Actions • CI/CD Workflows",
+        description: "Cloud-Native Infrastructure",
+        detail: "Docker • Kubernetes • AWS • CI/CD",
     },
     {
         icon: Trophy,
@@ -87,29 +87,30 @@ export const About = () => {
 
                             <div className="space-y-6 text-secondary text-xl leading-relaxed font-light">
                                 <p>
-                                    I am a high-impact backend engineer specializing in
+                                    I am a <span className="text-primary font-bold">Software Development Engineer</span> specializing in
                                     <span className="text-primary font-bold">
                                         {" "}
-                                        Distributed Systems & Java Microservices.{" "}
+                                        High-Scale Distributed Systems & Backend Architecture.{" "}
                                     </span>
                                     Currently architecting B2B insurance portals at <span
                                     className="text-primary font-bold">ACKO</span>.
                                 </p>
 
                                 <p>
-                                    While my core expertise lies in <span className="text-white font-bold">Backend Engineering</span>,
-                                    I am an architect who understands the entire stack.
-                                    I leverage <span className="text-primary font-semibold">React.js & Next.js</span> to
-                                    build intuitive frontends that seamlessly interface with high-performance backends.
+                                    With a core mastery in <span className="text-white font-bold">Java, Spring Boot, and Kafka</span>,
+                                    I build resilient backend architectures that power enterprise-grade applications.
+                                    I complement this with <span className="text-primary font-semibold">Next.js & React</span> to
+                                    deliver seamless end-to-end user experiences.
                                 </p>
 
                                 <p>
-                                    My engineering philosophy centers on <span
-                                    className="gradient-accent-text font-bold uppercase tracking-widest text-sm">Resilience & Scalability</span>.
-                                    I am also exploring <span
-                                    className="text-primary font-bold decoration-primary/50">DevOps Fundamentals</span> bridging
-                                    the gap between development and cloud-native infrastructure with Docker and
-                                    automated CI/CD pipelines.
+                                    My engineering philosophy is driven by <span
+                                    className="gradient-accent-text font-bold uppercase tracking-widest text-sm">Ownership & Production-First Execution</span>.
+                                    I excel in <span
+                                    className="text-primary font-bold">Performance Engineering</span>, having optimized
+                                    production systems by removing architectural bottlenecks and improving reliability through
+                                    direct Kafka consumption and microservices consolidation. I thrive in high-stakes environments, 
+                                    operating with the independence and technical rigor of an SDE-1.
                                 </p>
                             </div>
                         </div>
