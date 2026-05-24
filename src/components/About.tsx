@@ -72,7 +72,7 @@ export const About = () => {
                             <div
                                 className="relative w-48 h-48 mx-auto rounded-full overflow-hidden shadow-2xl border border-white/10 p-1.5 bg-gray-900">
                                 <img
-                                    src="/profile.jpg"
+                                    src="/profile.png"
                                     alt="Profile"
                                     className="w-full h-full object-cover rounded-full transition-all duration-700 hover:scale-105"
                                 />

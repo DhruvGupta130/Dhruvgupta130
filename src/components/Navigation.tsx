@@ -59,7 +59,7 @@ export const Navigation = () => {
             >
                 <div className="max-w-7xl mx-auto px-6">
                     <div className={`
-                        flex items-center justify-between transition-all duration-500 rounded-full px-6
+                        flex items-center justify-between transition-all duration-500 rounded-full px-2 py-8
                         ${isScrolled 
                             ? 'glass-premium border border-white/10 shadow-2xl h-14' 
                             : 'bg-transparent h-16'
@@ -81,13 +81,8 @@ export const Navigation = () => {
                                     <img
                                         src="/Logo.png"
                                         alt="DG Logo"
-                                        className="relative h-10 w-10 rounded-full border border-white/20 p-0.5 object-contain bg-background"
+                                        className="relative h-14 w-44 rounded-full border border-white/20 object-contain bg-background"
                                     />
-                                </div>
-                                <div className="flex flex-col -space-y-1">
-                                    <span className="text-3xl font-black tracking-tighter bg-gradient-to-r from-white via-white to-white/60 text-transparent bg-clip-text">
-                                        DHRUV GUPTA
-                                    </span>
                                 </div>
                             </a>
                         </div>
