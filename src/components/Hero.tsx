@@ -33,7 +33,7 @@ export const Hero = () => {
                     className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 mb-6">
                     <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
                     <span className="text-xs font-semibold tracking-wide text-primary">
-                        SDE @ ACKO | Available for Full-Time SDE-1 Roles from July 2026
+                        SDE @ ACKO
                     </span>
                 </div>
 
@@ -55,7 +55,8 @@ export const Hero = () => {
                     <p className="text-lg md:text-xl text-subtle leading-relaxed">
                         Building high-concurrency, production-grade systems at{" "}
                         <span className="text-primary font-medium">ACKO</span>.
-                        Specializing in event-driven architectures, performance engineering, and scalable backend ecosystems.
+                        Specializing in event-driven architectures, performance engineering, and scalable backend
+                        ecosystems.
                     </p>
 
                     <p className="text-lg md:text-xl text-subtle leading-relaxed">
